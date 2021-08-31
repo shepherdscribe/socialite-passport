@@ -22,28 +22,13 @@
 				"php": "^7.2",
 				"illuminate/support": "~6|~7|~8",
 				"socialiteproviders/laravelpassport": "^1.0",
-				"laravel/socialite": "^4.3|^5.2",
-				"ejlocop/socialite-passport": "master"
+				"laravel/socialite": "^4.3|^5.2"
 		},
 		"require-dev": {
 				"fzaninotto/faker": "^1.8",
 				"orchestra/testbench": "^4.0",
 				"phpunit/phpunit": "^8.0"
 		},
-		"repositories": [
-			{
-				"type":"package",
-				"package": {
-					"name": "ejlocop/socialite-passport",
-					"version":"master",
-					"source": {
-						"url": "https://github.com/ejlocop/socialite-passport.git",
-						"type": "git",
-						"reference":"master"
-					}
-				}
-			}
-		],
 		"autoload": {
 				"psr-4": {
 						"JhnBrn90\\SocialitePassport\\": "src"
